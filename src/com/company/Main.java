@@ -17,13 +17,17 @@ public class Main {
 }
 */
 
-
 public class Main {
-
     public static void main(String[] args) {
 	// write your code here
         Run run1 = new Run (10, "+++", 0);
-        Run run2 = new Run (10, "+++");
-
+        Run run2 = new Run (5, "---");
+        System.out.println("Кличество бегунов - " + run1.numberOfRunners);
+        System.out.println("Погода - " + run1.Weather);
+        System.out.println("Кличество бегунов - " + run2.numberOfRunners);
+        System.out.println("Погода - " + run2.Weather);
+        Run run3 = new Run(run1);
+        System.out.println("Кличество бегунов - " + run3.numberOfRunners);
+        System.out.println("Погода - " + run3.Weather);
     }
 }
