@@ -4,7 +4,7 @@ public class Run {
     int numberOfRunners;
     String stadiumName;
     double Weather;
-    public Run(int numberOfRunners, String stadiumName, double DEFAULT_WEATHEReather) {
+    public Run(int numberOfRunners, String stadiumName, double weather) {
         this.numberOfRunners = numberOfRunners;
         this.stadiumName = stadiumName;
         this.Weather = weather;
