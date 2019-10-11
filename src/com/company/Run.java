@@ -1,4 +1,7 @@
-package com.company;
+/*package com.company;
+
+ */
+/*
 public class Run {
     static double DEFAULT_WEATHER = 0;
     int numberOfRunners;
@@ -20,6 +23,7 @@ public class Run {
     /*
     public Run(int numberOfRunners) {
         return;
+
     }
     public Run(String stadiumName) {
         return;
@@ -28,5 +32,7 @@ public class Run {
         return;
     }
 
-     */
+
 }
+
+ */

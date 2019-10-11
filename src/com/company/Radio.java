@@ -1,4 +1,4 @@
-package com.company;
+/*package com.company;
 
 public class Radio {
 
@@ -7,3 +7,4 @@ public class Radio {
         System.out.println("test");
     }
 }
+*/
