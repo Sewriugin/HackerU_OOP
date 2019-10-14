@@ -20,6 +20,8 @@ public class House {
     public void setHeight(int height) {
         this.height = height * 100;
     }
+
+    //TODO попробовать сделать метод по оценке стоимости дома
 }
 
 
