@@ -25,12 +25,6 @@ public class Conference {
         return CONS_CONFERENCE;
     }
 
-    //TODO метод main можно создать написав psvm + enter
-    public static void main(String[] args) {
-
-    }
-
-   // public static void mai
+    // public static void mai
     //System.out.pintln();
 }
-
