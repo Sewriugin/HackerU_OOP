@@ -1,3 +1,59 @@
+/* ДЗ_Перегрузка методов
+
+public class Main {
+
+    public static void main(String[] args) {
+        // write your code here
+        showTime(2);
+        showTime(2,5);
+        showTime(2,5 ,8);
+    }
+
+    public static void showTime(int hours) {
+        System.out.println(hours + " -часов, " + 0 + " -минут, " + 0 + " -секунд ");
+    }
+    public static void showTime(int hours, int minutes) {
+        System.out.println(hours + " -часов, " + minutes + " -минут, " + 0 + " -секунд ");
+    }
+    public static void showTime(int hours, int minutes, int seconds) {
+        System.out.println(hours + " -часов, " + minutes + " -минут, " + seconds + " -секунд ");
+
+    }
+}
+ */
+/* Циклы
+ public class Main {
+
+    public static void main(String[] args) {
+        // write your code here
+        int count = 5;
+        for (int x = 0; count >= 1; x = x + 1){
+            count = count - 1;
+            if ((count % 2) != 0) System.out.println("нечетные числа count - " + count);
+                    else if (count > 0) System.out.println("четные числа count - " + count);
+                    if (count == 0) System.out.println("нулевое значение числа count - " + count);
+
+        }
+
+    }
+}
+*/
+
+/* ДЗ_Массивы
+ public class Main {
+    public static void main(String[] args) {
+        String [] array = {" I ", " like ", " to ", " program ", " in ", " Java "};
+        String result = "";
+        for (int i = 0; i < array.length; i++) {
+            if(i == 5 || i == 1 || i == 0)
+                result = result + array[i];
+        }
+        System.out.println(result);
+    }
+}
+*/
+
+
 /*
                                             //RadioStation
 package com.company;
