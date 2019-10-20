@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Objects;
+
 public class Airplane {
     int seatingCapacity;
     int flightRange;
@@ -32,6 +34,22 @@ public class Airplane {
     //TODO нужно переопределить метод equals, нажать alt + insert Выбрать Equals and hash code
     //TODO Выбрать нужные поля смыслу задачи все поля кроме company, так как мы их решили игнорить по смыслу задачи
     //TODO В итоге у вас сформируется код наподобие этого
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Airplane airplane = (Airplane) o;
+        return seatingCapacity == airplane.seatingCapacity &&
+                flightRange == airplane.flightRange;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(seatingCapacity, flightRange);
+    }
+
+
     /*
     @Override
     public boolean equals(Object o) {
