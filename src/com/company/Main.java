@@ -1,5 +1,5 @@
-/* ДЗ_Перегрузка методов
-
+/* ДЗ_Перегрузка методов ShowTime_1
+package com.company;
 public class Main {
 
     public static void main(String[] args) {
@@ -21,7 +21,9 @@ public class Main {
     }
 }
  */
-/* Циклы
+/* Циклы_2
+package com.company;
+
  public class Main {
 
     public static void main(String[] args) {
@@ -39,7 +41,8 @@ public class Main {
 }
 */
 
-/* ДЗ_Массивы
+/* ДЗ_Массивы_3
+package com.company;
  public class Main {
     public static void main(String[] args) {
         String [] array = {" I ", " like ", " to ", " program ", " in ", " Java "};
@@ -55,7 +58,7 @@ public class Main {
 
 
 /*
-                                            //RadioStation
+                                            //RadioStation_4
 package com.company;
 
 public class Main {
@@ -81,8 +84,7 @@ public class Main {
 }
  */
 
-
-                                            //Run
+                                            //Run_5
 /*
 package com.company;
 
@@ -103,7 +105,7 @@ public class Main {
 }
  */
 
-                                            //Hause
+                                            //Hause_6
 /*
 package com.company;
 
@@ -125,7 +127,7 @@ package com.company;
 }
  */
 
-                                            //Conference
+                                            //Conference_7
 /*package com.company;
 
 public class Main {
@@ -143,7 +145,7 @@ public class Main {
 }
  */
 
-                                            //Car
+                                            //Car_8
 /*
 package com.company;
 
@@ -166,7 +168,8 @@ public class Main {
     }
 }
  */
-                                        //Laptop
+                                        //Laptop_9
+/*
 package com.company;
 
 public class Main {
@@ -186,3 +189,170 @@ public class Main {
         System.out.println(Samsung.equals(HP));
     }
 }
+ */
+                                    //Airplane_10
+/*
+package com.company;
+
+public class Main {
+
+    private static Object Airoplane;
+
+    public static void main(String[] args) {
+        // write your code here
+        com.company.Airplane S7 = new Airplane();
+        com.company.Airplane UralAirlines = new Airplane();
+
+        System.out.println(S7.equals(UralAirlines));
+    }
+}
+ */
+                                        //Math_11
+/*
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+        // write your code here
+        Object object1 = new Math();
+        Object object2 = new Math();
+        object1.equals(object2);
+        System.out.println(object1.equals(object2));
+
+        System.out.println();
+    }
+}
+*/
+                                        //1) Stack_12
+/*
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+        // write your code here
+        System.out.println(" main ");
+        method1();
+        System.out.println(" main ");
+    }
+    public static void method1(){
+        System.out.println(" method1 ");
+        method2();
+        System.out.println(" method1 ");
+    }
+    public static void method2(){
+        System.out.println(" method2 ");
+        method3();
+        System.out.println(" method2 ");
+
+    }
+    public static void method3(){
+        System.out.println(" method3 ");
+    }
+}
+ */
+
+                                //2) Stack_12
+/*
+package com.company;
+
+public class Main {
+
+        public static void method1() {
+        System.out.println(" method1 ");
+        method2();
+        method1();
+    }
+
+        public static void method2() {
+        method3();
+        System.out.println(" method2 ");
+    }
+
+    public static void method3() {
+        System.out.println(" method3 ");
+    }
+
+    public static void main(String[] args) {
+        // write your code here
+        method1();
+    }
+}
+*/
+
+                                //Hash Code (частично)_13
+/*
+package com.company;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+public class Main {
+
+    public static void main(String[] args) {
+        // write your code here;
+        //Dog dog1 = new Dog("Rex1", 10, 20);
+        //Dog dog2 = new Dog("Rex2",10,20);
+        //System.out.println(dog1.hashCode());
+        //System.out.println(dog2.hashCode());
+
+        List<Dog> list = new ArrayList<>();
+        list.add(new Dog());
+        list.add(new Dog());
+        System.out.println();
+        Set<Dog> set = new HashSet<Dog>();
+        set.add(new Dog());
+        set.add(new Dog());
+        System.out.println();
+    }
+}
+ */
+                                    // Grandfather_14
+/*
+package com.company;
+public class Main {
+
+    public static void main(String[] args) {
+	// write your code here
+        Grandfather grandfather = new Grandfather();
+        grandfather.knowsWholsLenin();
+        System.out.println(" grandfather.knowsWholsLenin" );
+
+        Father father = new Father();
+        father.listenTheBeatles();
+        father.knowsWholsLenin();
+        System.out.println(" father.listenTheBeatles " + " father.knowsWholsLenin ");
+
+        Son son = new Son();
+        son.learnJava();
+        son.knowsWholsLenin();
+        son.listenTheBeatles();
+        System.out.println(" son.learnJava " + " son.knowsWholsLenin " + " son.listenTheBeatles ");
+
+        Daughter daughter = new Daughter();
+        daughter.learnJavaAndSql();
+        daughter.knowsWholsLenin();
+        daughter.listenTheBeatles();
+        System.out.println(" daughter.learnJavaAndSql " + " daughter.knowsWholsLenin " + " daughter.listenTheBeatles ");
+    }
+}
+*/
+
+                                    // TireFitting_15
+/*
+package com.company;
+public class Main {
+
+    public static void main(String[] args) {
+        // write your code here
+        TireFitting.makeService();
+    }
+}
+*/
+
+                                    // Heroes_16
+
+
+
