@@ -343,7 +343,7 @@ public class Main {
                                     // TireFitting_15
 /*
 package com.company;
-public class Main {
+    public class Main {
 
     public static void main(String[] args) {
         // write your code here
@@ -352,7 +352,28 @@ public class Main {
 }
 */
 
-                                    // Heroes_16
+                                    // Heroes_16 (запутался..)
+/*
+package com.company;
 
+
+  import mutants.Deadpool;
+  import mutants.Spiderman;
+  import people.IronMan;
+  import people.Superman;
+
+  public class Main {
+
+    public static void main(String[] args) {
+        // write your code here
+       Spiderman spiderman = new Spiderman();
+        System.out.println(spiderman.breath);
+        System.out.println(new Deadpool());
+        System.out.println(new Superman());
+        System.out.println(new IronMan());
+    }
+
+}
+*/
 
 
