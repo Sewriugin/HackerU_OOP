@@ -375,5 +375,23 @@ package com.company;
 
 }
 */
+//Appliance_17
+package com.company;
+
+    public class Main {
+
+    public static void main(String[] args) {
+        // write your code here
+        //Kettle kettle = new Kettle();
+        //kettle.doWork();
+        //Dishwasher dishwasher = new Dishwasher();
+        //dishwasher.doWork();
+        //Appliance [] Appliances = {new Kettle(), new Dishwasher()};
+        Appliance[] appliances = {new Kettle(), new Dishwasher()};
+        for (Appliance appliance : appliances) {
+            System.out.println(" Kettle " + " Dishwasher");
+        }
+    }
+}
 
 
