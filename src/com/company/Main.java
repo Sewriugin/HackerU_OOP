@@ -375,8 +375,8 @@ package com.company;
 
 }
 */
-//Appliance_17
-package com.company;
+                                    //Appliance_17
+/*package com.company;
 
     public class Main {
 
@@ -393,5 +393,40 @@ package com.company;
         }
     }
 }
+ */
 
+                                //Appliance Again_18
+/*
+package com.company;
 
+public class Main {
+
+    public static void main(String[] args) {
+        // write your code here
+        //1) Kettle kettle = new Kettle();
+        //1) kettle.doWork();
+        //1) Dishwasher dishwasher = new Dishwasher();
+        //1) dishwasher.doWork();
+        //1) Appliance [] Appliances = {new Kettle(), new Dishwasher()};
+
+        //2)   Appliance[] appliances = {new Kettle(), new Dishwasher()};
+        //2)   for (Appliance appliance : appliances) {
+        //2)     System.out.println(" Kettle " + " Dishwasher");
+        //2)   }
+
+        Object object1 = new Dishwasher();
+        Object object2 = new Kettle();
+
+        //Appliance[] appliances = {new Kettle(), new Dishwasher()};
+        //   for (Appliance appliance : appliances) {
+        //       appliance.doWork();
+        //        System.out.println(" Kettle " + " Dishwasher");
+        ApplianceAgain[] applianceAgains = {new Kettle(), new Dishwasher()};
+        for (ApplianceAgain  applianceAgain : applianceAgains) {
+            ApplianceAgain.doWork();
+            System.out.println(" Kettle " + " Dishwasher");
+        }
+
+    }
+}
+ */
